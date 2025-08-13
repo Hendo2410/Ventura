@@ -1,0 +1,177 @@
+/* Tiered Section Component - BEM Methodology */
+.tiered-section {
+  padding: 5rem 0;
+  background: white;
+}
+
+.tiered-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.tiered-section__title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a365d;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.tiered-section__subtitle {
+  text-align: center;
+  color: #4a5568;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+.tiered-section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.tiered-section__card {
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.tiered-section__card--core {
+  background: #e6f3ff;
+  border: 1px solid #bde0ff;
+}
+
+.tiered-section__card--secure {
+  background: white;
+  border: 1px solid #e2e8f0;
+}
+
+.tiered-section__card--strategic {
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+}
+
+.tiered-section__label {
+  background: #2c5282;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.tiered-section__card--secure .tiered-section__label {
+  background: #3182ce;
+}
+
+.tiered-section__card--strategic .tiered-section__label {
+  background: #4a5568;
+}
+
+.tiered-section__card-title {
+  color: #1a365d;
+  margin-bottom: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.tiered-section__card-subtitle {
+  color: #4a5568;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.tiered-section__list {
+  list-style: none;
+}
+
+.tiered-section__list-item {
+  padding: 0.4rem 0;
+  color: #4a5568;
+  position: relative;
+  padding-left: 1.2rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.tiered-section__list-item::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #38a169;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.tiered-section__oem-card {
+  grid-column: 1 / -1;
+  background: linear-gradient(135deg, #2d3748 0%, #2c5282 50%, #3182ce 100%);
+  color: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.tiered-section__oem-title {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.tiered-section__oem-description {
+  margin-bottom: 2rem;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+.tiered-section__oem-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.tiered-section__oem-feature {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.tiered-section__oem-bullet {
+  width: 6px;
+  height: 6px;
+  background: #d4af37;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.tiered-section__oem-feature-text {
+  color: #e2e8f0;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .tiered-section__grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .tiered-section__title {
+    font-size: 2rem;
+  }
+
+  .tiered-section__oem-features {
+    grid-template-columns: 1fr;
+  }
+}

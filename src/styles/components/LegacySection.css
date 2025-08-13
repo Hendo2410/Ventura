@@ -1,0 +1,92 @@
+/* Legacy Section Component - BEM Methodology */
+.legacy-section {
+  padding: 5rem 0;
+  background: #f8fafc;
+}
+
+.legacy-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.legacy-section__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.legacy-section__text {
+  /* text content styles */
+}
+
+.legacy-section__title {
+  font-size: 2.5rem;
+  color: #1a365d;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.legacy-section__paragraph {
+  margin-bottom: 1.5rem;
+  color: #4a5568;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.legacy-section__highlight {
+  font-weight: 600;
+  color: #2c5282;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.legacy-section__image {
+  /* image container styles */
+}
+
+.legacy-section__philosophy-box {
+  background: white;
+  color: #4a5568;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #2c5282;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.legacy-section__philosophy-title {
+  margin-bottom: 1.5rem;
+  color: #2c5282;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.legacy-section__quote {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #000000;
+  font-style: italic;
+}
+
+.legacy-section__philosophy-sub {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .legacy-section__content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .legacy-section__title {
+    font-size: 2rem;
+  }
+
+  .legacy-section__philosophy-box {
+    padding: 2rem;
+  }
+}

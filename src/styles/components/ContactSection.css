@@ -1,0 +1,221 @@
+/* Contact Section Component - BEM Methodology */
+.contact-section {
+  padding: 5rem 0;
+  background: #f8fafc;
+}
+
+.contact-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-section__title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a365d;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.contact-section__subtitle {
+  text-align: center;
+  color: #4a5568;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+.contact-section__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.contact-section__info {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-section__info-title {
+  color: #1a365d;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.contact-section__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-section__icon {
+  width: 40px;
+  height: 40px;
+  background: #e6f3ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.contact-section__item-content {
+  /* content wrapper */
+}
+
+.contact-section__item-label {
+  display: block;
+  color: #1a365d;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.contact-section__item-value {
+  color: #4a5568;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.contact-section__form-wrapper {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-section__form-title {
+  color: #1a365d;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.contact-section__form-description {
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.contact-section__form {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-section__form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.contact-section__input,
+.contact-section__select,
+.contact-section__textarea {
+  padding: 0.8rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+}
+
+.contact-section__input:focus,
+.contact-section__select:focus,
+.contact-section__textarea:focus {
+  outline: none;
+  border-color: #3182ce;
+  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+}
+
+.contact-section__select {
+  background: white;
+  cursor: pointer;
+}
+
+.contact-section__textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-section__submit-btn {
+  background: #2c5282;
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-section__submit-btn:hover {
+  background: #2a4d7a;
+}
+
+.contact-section__why-choose {
+  background: linear-gradient(135deg, #2d3748 0%, #2c5282 50%, #3182ce 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  margin-top: 2rem;
+}
+
+.contact-section__why-choose-title {
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.contact-section__choose-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-section__choose-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.contact-section__choose-icon {
+  width: 6px;
+  height: 6px;
+  background: #d4af37;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.contact-section__choose-text {
+  color: #e2e8f0;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .contact-section__grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .contact-section__form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-section__title {
+    font-size: 2rem;
+  }
+}

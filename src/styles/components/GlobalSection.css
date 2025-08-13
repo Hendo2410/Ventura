@@ -1,0 +1,124 @@
+/* Global Section Component - BEM Methodology */
+.global-section {
+  padding: 5rem 0;
+  background: #f8fafc;
+}
+
+.global-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.global-section__title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1a365d;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.global-section__subtitle {
+  text-align: center;
+  color: #4a5568;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+.global-section__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.global-section__card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.global-section__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.global-section__card-title {
+  color: #1a365d;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.global-section__status-badge {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+.global-section__status-badge--established {
+  background: #c6f6d5;
+  color: #22543d;
+}
+
+.global-section__status-badge--expansion {
+  background: #fed7aa;
+  color: #c05621;
+}
+
+.global-section__status-badge--active {
+  background: #bee3f8;
+  color: #2a69ac;
+}
+
+.global-section__status-badge--planning {
+  background: #e6fffa;
+  color: #234e52;
+}
+
+.global-section__countries {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.global-section__country {
+  padding: 0.4rem 0;
+  color: #4a5568;
+  font-size: 0.95rem;
+}
+
+.global-section__description {
+  color: #718096;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+@media (max-width: 1024px) {
+  .global-section__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .global-section__grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .global-section__title {
+    font-size: 2rem;
+  }
+}
