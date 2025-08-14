@@ -1,15 +1,15 @@
 /* CSS Custom Properties (Variables) */
 :root {
   /* Colors */
-  --color-primary: #2c5282;
-  --color-primary-dark: #2a4d7a;
-  --color-secondary: #d4af37;
-  --color-secondary-dark: #b8941f;
+  --color-primary: #1e3a8a;
+  --color-primary-dark: #1e40af;
+  --color-secondary: #fbbf24;
+  --color-secondary-dark: #f59e0b;
   
-  --color-text-primary: #333;
-  --color-text-secondary: #4a5568;
-  --color-text-muted: #718096;
-  --color-text-light: #a0aec0;
+  --color-text-primary: #1f2937;
+  --color-text-secondary: #374151;
+  --color-text-muted: #6b7280;
+  --color-text-light: #9ca3af;
   
   --color-background-primary: #ffffff;
   --color-background-secondary: #f8fafc;
@@ -23,8 +23,8 @@
   --color-success-bg: #c6f6d5;
   --color-warning: #c05621;
   --color-warning-bg: #fed7aa;
-  --color-info: #2a69ac;
-  --color-info-bg: #bee3f8;
+  --color-info: #1e40af;
+  --color-info-bg: #dbeafe;
   
   /* Typography */
   --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;

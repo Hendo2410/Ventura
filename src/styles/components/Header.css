@@ -30,7 +30,7 @@
 .header__logo-text {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #2c5282;
+  color: #1e3a8a;
 }
 
 .header__menu {
@@ -46,17 +46,17 @@
 
 .header__menu-link {
   text-decoration: none;
-  color: #333;
+  color: #1f2937;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .header__menu-link:hover {
-  color: #2c5282;
+  color: #1e3a8a;
 }
 
 .header__contact-btn {
-  background: #2c5282;
+  background: #1e3a8a;
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -67,5 +67,5 @@
 }
 
 .header__contact-btn:hover {
-  background: #2a4d7a;
+  background: #1e40af;
 }

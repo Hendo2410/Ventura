@@ -13,14 +13,14 @@
 .tiered-section__title {
   text-align: center;
   font-size: 2.5rem;
-  color: #1a365d;
+  color: #1e3a8a;
   margin-bottom: 1rem;
   font-weight: 600;
 }
 
 .tiered-section__subtitle {
   text-align: center;
-  color: #4a5568;
+  color: #374151;
   margin-bottom: 3rem;
   font-size: 1.1rem;
   max-width: 600px;
@@ -43,22 +43,22 @@
 }
 
 .tiered-section__card--core {
-  background: #e6f3ff;
+  background: #F1F5F9;
   border: 1px solid #bde0ff;
 }
 
 .tiered-section__card--secure {
-  background: white;
-  border: 1px solid #e2e8f0;
+  background: #F1F5F9;
+  border: 1px solid #bde0ff;
 }
 
 .tiered-section__card--strategic {
-  background: #f5f5f5;
-  border: 1px solid #e0e0e0;
+  background: #F1F5F9;
+  border: 1px solid #bde0ff;
 }
 
 .tiered-section__label {
-  background: #2c5282;
+  background: #1e3a8a;
   color: white;
   padding: 0.2rem 0.6rem;
   border-radius: 3px;
@@ -71,22 +71,22 @@
 }
 
 .tiered-section__card--secure .tiered-section__label {
-  background: #3182ce;
+  background: #1e40af;
 }
 
 .tiered-section__card--strategic .tiered-section__label {
-  background: #4a5568;
+  background: #475569;
 }
 
 .tiered-section__card-title {
-  color: #1a365d;
+  color: #1e3a8a;
   margin-bottom: 0.3rem;
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .tiered-section__card-subtitle {
-  color: #4a5568;
+  color: #374151;
   margin-bottom: 1rem;
   font-size: 0.85rem;
 }
@@ -97,7 +97,7 @@
 
 .tiered-section__list-item {
   padding: 0.4rem 0;
-  color: #4a5568;
+  color: #374151;
   position: relative;
   padding-left: 1.2rem;
   font-size: 0.85rem;
@@ -115,7 +115,7 @@
 
 .tiered-section__oem-card {
   grid-column: 1 / -1;
-  background: linear-gradient(135deg, #2d3748 0%, #2c5282 50%, #3182ce 100%);
+  background: linear-gradient(135deg, #374151 0%, #1e3a8a 50%, #1e40af 100%);
   color: white;
   padding: 2.5rem;
   border-radius: 12px;
@@ -132,7 +132,7 @@
 
 .tiered-section__oem-description {
   margin-bottom: 2rem;
-  color: #e2e8f0;
+  color: #e1e7ef;
   line-height: 1.6;
 }
 
@@ -151,13 +151,13 @@
 .tiered-section__oem-bullet {
   width: 6px;
   height: 6px;
-  background: #d4af37;
+  background: #fbbf24;
   border-radius: 50%;
   flex-shrink: 0;
 }
 
 .tiered-section__oem-feature-text {
-  color: #e2e8f0;
+  color: #e1e7ef;
   font-size: 0.95rem;
 }
 

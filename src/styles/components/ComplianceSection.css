@@ -13,14 +13,14 @@
 .compliance-section__title {
   text-align: center;
   font-size: 2.5rem;
-  color: #1a365d;
+  color: #1e3a8a;
   margin-bottom: 1rem;
   font-weight: 600;
 }
 
 .compliance-section__subtitle {
   text-align: center;
-  color: #4a5568;
+  color: #374151;
   margin-bottom: 3rem;
   font-size: 1.1rem;
   max-width: 700px;
@@ -35,7 +35,7 @@
 }
 
 .compliance-section__suite {
-  background: linear-gradient(135deg, #2d3748 0%, #2c5282 50%, #3182ce 100%);
+  background: linear-gradient(135deg, #374151 0%, #1e3a8a 50%, #1e40af 100%);
   color: white;
   padding: 2.5rem;
   border-radius: 12px;
@@ -51,7 +51,7 @@
 
 .compliance-section__suite-description {
   font-size: 1.1rem;
-  color: #e2e8f0;
+  color: #e1e7ef;
 }
 
 .compliance-section__grid {
@@ -77,8 +77,8 @@
 }
 
 .compliance-section__category-number {
-  background: #e6f3ff;
-  color: #2c5282;
+  background: #dbeafe;
+  color: #1e3a8a;
   width: 24px;
   height: 24px;
   border-radius: 4px;
@@ -92,7 +92,7 @@
 }
 
 .compliance-section__category-title {
-  color: #1a365d;
+  color: #1e3a8a;
   font-size: 1.1rem;
   font-weight: 600;
   margin: 0;
@@ -106,7 +106,7 @@
 
 .compliance-section__list-item {
   padding: 0.4rem 0;
-  color: #4a5568;
+  color: #374151;
   font-size: 0.9rem;
   position: relative;
   padding-left: 1.2rem;
@@ -131,14 +131,14 @@
 }
 
 .compliance-section__audit-title {
-  color: #1a365d;
+  color: #1e3a8a;
   margin-bottom: 1rem;
   font-size: 1.6rem;
   font-weight: 600;
 }
 
 .compliance-section__audit-description {
-  color: #4a5568;
+  color: #374151;
   line-height: 1.7;
   max-width: 800px;
   margin: 0 auto;

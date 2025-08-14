@@ -32,23 +32,27 @@
 .hero__subtitle {
   font-size: 1.5rem;
   margin-bottom: 2rem;
-  color: #e2e8f0;
+  color: #e1e7ef;
 }
 
 .hero__description {
   font-size: 1.1rem;
   margin-bottom: 3rem;
   line-height: 1.8;
-  color: #cbd5e0;
+  color: #ffff;
 }
 
 .hero__buttons {
   margin-bottom: 3rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .hero__btn-primary {
-  background: #d4af37;
-  color: #1a365d;
+  background: #ffff;
+  color: #1e3a8a;
   border: none;
   padding: 1rem 2rem;
   border-radius: 5px;
@@ -59,7 +63,26 @@
 }
 
 .hero__btn-primary:hover {
-  background: #b8941f;
+  background: #e3e3e3;
+  transform: translateY(-2px);
+  color: #1e3a8a;
+}
+
+.hero__btn-secondary {
+  background: rgba(255, 255, 255, 0.10);;
+  color: #e1e7ef;
+  border: 2px solid #475569;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.hero__btn-secondary:hover {
+  border-color: #fff;
+  color: #fff;
   transform: translateY(-2px);
 }
 
@@ -75,10 +98,10 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #e2e8f0;
+  color: #e1e7ef;
 }
 
 .hero__feature-icon {
-  color: #d4af37;
+  color: #fbbf24;
   font-size: 1.2rem;
 }
