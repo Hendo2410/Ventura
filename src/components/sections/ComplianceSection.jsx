@@ -2,7 +2,7 @@ import '../../styles/components/ComplianceSection.css';
 
 function ComplianceSection() {
   return (
-    <section className="compliance-section">
+    <section id="compliance" className="compliance-section">
       <div className="compliance-section__container">
         <h2 className="compliance-section__title">Compliance & Documentation Hub</h2>
         <p className="compliance-section__subtitle">

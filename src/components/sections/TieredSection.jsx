@@ -2,7 +2,7 @@ import '../../styles/components/TieredSection.css';
 
 function TieredSection() {
   return (
-    <section className="tiered-section">
+    <section id="services" className="tiered-section">
       <div className="tiered-section__container">
         <h2 className="tiered-section__title">Tiered Service Model</h2>
         <p className="tiered-section__subtitle">

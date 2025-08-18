@@ -2,7 +2,7 @@ import '../../styles/components/LegacySection.css';
 
 function LegacySection() {
   return (
-    <section className="legacy-section">
+    <section id="about" className="legacy-section">
       <div className="legacy-section__container">
         <div className="legacy-section__content">
           <div className="legacy-section__text">

@@ -2,7 +2,7 @@ import '../../styles/components/ContactSection.css';
 
 function ContactSection() {
   return (
-    <section className="contact-section">
+    <section id="contact" className="contact-section">
       <div className="contact-section__container">
         <h2 className="contact-section__title">Get in Touch with Ventura Trading</h2>
         <p className="contact-section__subtitle">

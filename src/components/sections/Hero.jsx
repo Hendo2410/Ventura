@@ -3,7 +3,7 @@ import venturaLogo from '../../assets/ventura-logo.png';
 
 function Hero() {
   return (
-    <section className="hero">
+    <section id="home" className="hero">
       <div className="hero__content">
         <div className="hero__logo">
           <img src={venturaLogo} alt="Ventura Trading Logo" width="200" height="200" />

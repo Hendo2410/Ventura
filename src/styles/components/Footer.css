@@ -12,8 +12,9 @@
 }
 
 .footer__content {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 2fr;
+  justify-content: space-between;
   gap: 4rem;
   margin-bottom: 2rem;
 }
@@ -43,6 +44,7 @@
 
 .footer__description {
   color: #a0aec0;
+  width: 500px;
   margin-bottom: 0.5rem;
   font-size: 0.95rem;
   line-height: 1.5;
